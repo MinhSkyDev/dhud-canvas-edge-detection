@@ -27,7 +27,7 @@ function grabScreen(){
   canvas.width = player.videoWidth;
   canvas.height = player.videoHeight;
   //grab a frame from the video
-  ctx.drawImage(player, 0, 0,450,450);
+  //ctx.drawImage(player, 0, 0,450,450);
   var back = document.createElement('canvas');
   var backcontext = back.getContext('2d');
 
