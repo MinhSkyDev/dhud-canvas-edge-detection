@@ -31,7 +31,7 @@ function grabScreen(){
   var back = document.createElement('canvas');
   var backcontext = back.getContext('2d');
 
-  draw(player,ctx,backcontext,450,450)
+  draw(player,ctx,backcontext,player.videoWidth,player.videoHeight)
 }
 
 
